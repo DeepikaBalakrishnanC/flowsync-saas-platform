@@ -1,0 +1,12 @@
+{
+  "name": "flowsync-saas-platform",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "preview": "npm run preview --prefix client",
+    "server:build": "npm run build --prefix server",
+    "server:dev": "npm run dev --prefix server"
+  }
+}
